@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--primary:#536942;
+--secondary:#ffd936;
+--white: #efefef;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: var(--primary);
+}
+
+.header-top {
+    margin-top: 40px;
+}
+
+
+.header-top input {
+
+    width: 300px;
+    height: 50px;
+}
+
+.reg {
+    display: flex;
+    align-items: anchor-center;
+}
+
+.blue-bar {
+    height: 80px;
+    background-color: rgb(13, 13, 94);
+}
+
+nav li a {
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
