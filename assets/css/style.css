@@ -51,11 +51,19 @@ body {
 .blue-bar {
     height: 80px;
     background-color: rgb(13, 13, 94);
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+
 }
+
 
 nav li a {
 text-transform: uppercase;
+color: var(--white);
+text-decoration: none;
 }
+ 
 
 
 
