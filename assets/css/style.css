@@ -30,7 +30,9 @@
     padding-bottom: 40px;
 }
 
-
+.bold {
+font-weight: 900;
+}
 
 .center {
     display: flex;
@@ -167,30 +169,29 @@ font-size: 8pt;
 }
 
 
-#carousel .caro-group {
-display: inline-flex;
+#popular-right-now span {
+    font-size: 14pt;
+    font-weight: bolder;
 }
 
-#carousel .box {
-    min-height: 200px;
-    max-height: 200px;
-    min-width: 200px;
-    max-width: 200px;
-
+#popular-right-now a {
+    color: #939492;
+    font-weight: 700;
+    font-size: 12pt;
+    height: 120px;
 }
 
-#carousel img {
-    min-height: 120px;
-    max-height: 120px;
-    min-width: 120px;
-    max-width: 120px;
-
+#popular-right-now h2 {
+font-size: 16pt;
 }
 
-.caro-group {
-width: 800px ;
+.space {
+    height: 42px;
 }
 
-.carousel-inner {
-    background-color: #939492;
+
+
+footer {
+background-color: #f2f1ef;
+height: 20px;
 }
